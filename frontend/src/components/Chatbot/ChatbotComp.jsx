@@ -13,17 +13,17 @@ import { setOpen } from "../../redux/contentSlice.js";
 const Conversationbot = () => {
   const dispatch = useDispatch();
 
-  const saveMessages = (messages, HTMLString) => {
-    console.log("Save messages-->",messages);
-    console.log("Save messages-->",HTMLString);
+  // const saveMessages = (messages, HTMLString) => {
+  //   console.log("Save messages-->",messages);
+  //   console.log("Save messages-->",HTMLString);
 
-    localStorage.setItem("chat_messages", JSON.stringify(HTMLString));
-  };
+  //   localStorage.setItem("chat_messages", JSON.stringify(HTMLString));
+  // };
 
-  const loadMessages = () => {
-    const messages = JSON.parse(localStorage.getItem("chat_messages"));
-    return messages;
-  };
+  // const loadMessages = () => {
+  //   const messages = JSON.parse(localStorage.getItem("chat_messages"));
+  //   return messages;
+  // };
 
   return (
     <>
@@ -38,9 +38,7 @@ const Conversationbot = () => {
         <Chatbot
           config={config}
           actionProvider={ActionProvider}
-          messageHistory={loadMessages()}
           messageParser={MessageParser}
-          saveMessages={saveMessages}
         />
       </div>
     </>

@@ -12,9 +12,6 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
 
   const handleAge = () => {
     const messages = createChatBotMessage("Enter your Age");
-
-
-
     setState((prev) => ({
       ...prev,
       messages: [...prev.messages, messages],

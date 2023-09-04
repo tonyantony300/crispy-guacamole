@@ -11,6 +11,7 @@ exports.getFreeSessions = async (req, res) => {
  try{
     const userId = req.userId
     const userData = await User.find ( {_id: new ObjectId (userId)} );
+    console.log('userData =>', userData)
     let faculty = req.query.faculty
     let freeSessions
     if(userData[0].role === 'dean'){
@@ -18,7 +19,13 @@ exports.getFreeSessions = async (req, res) => {
       freeSessions = await Session.find({ isBooked: true, deanId: userData[0].universityId, dateTime: { $gte: new Date () } });
     } else {
       console.log('fetching sessions for student')
-      freeSessions = await Session.find({ isBooked: false, deanId: faculty, dateTime: { $gte: new Date () } });
+      if(!faculty){
+        console.log('faculty not found')
+        freeSessions = await Session.find({ isBooked: true, studentId: userData[0].universityId, dateTime: { $gte: new Date () } });
+      }else {
+        freeSessions = await Session.find({ isBooked: false, deanId: faculty, dateTime: { $gte: new Date () } });
+      }
+    
     }
     res.json({ sessions: freeSessions });
 } catch(err){

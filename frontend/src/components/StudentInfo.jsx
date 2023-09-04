@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const StudentInfo = () => {
   const info = useSelector((state) => state.content);
 
-  console.log(info);
+  console.log('final info received => ', info);
 
   return (
     <>
