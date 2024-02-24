@@ -6,7 +6,7 @@ const MessageParser = ({ children, actions }) => {
   const dispatch = useDispatch();
 
   const parse = (message) => {
-   // console.log('inside message parser', message, isNaN(message))
+    console.log('inside message parser', message, isNaN(message))
     if (!message) {
       return actions.handleEmptyMessage()
     }
