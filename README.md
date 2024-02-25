@@ -9,23 +9,13 @@
 
 
 <p>
-    <a href="https://osvauld.com" target="_blank">
-      <img
-        src="https://raw.githubusercontent.com/tonyantony300/crispy-guacamole/master/assets/Add_new_user_to_group.png"
-        alt="Osvauld Issue Details"
-        width="100%"
-      />
-    </a>
-    <p>
-        <a href="https://app.osvauld.com/#gh-light-mode-only" target="_blank">
+      <a href="https://app.osvauld.com/#gh-light-mode-only" target="_blank">
       <img
         src="https://raw.githubusercontent.com/tonyantony300/crispy-guacamole/master/assets/Credential_Single_Card.png"
         alt="Osvauld Screens"
         width="100%"
       />
     </a>
-
-</p>
 </p>
 
 
