@@ -1,29 +1,22 @@
 <br /><br />
 <p align="center">
 <a href="https://osvauld.com">
-  <img src="https://Osvauld-marketing.s3.ap-south-1.amazonaws.cosvauld-readme/plane_logo_.webp" alt="Osvauld Logo" width="70">
+  <img src="https://raw.githubusercontent.com/tonyantony300/crispy-guacamole/master/assets/logo.png" alt="Osvauld Logo" width="70">
 </a>
 </p>
 
-<h3 align="center"><b>Osvauld</b></h3>
 <p align="center"><b>Credential management for teams in the most secure way</b></p>
 
 
 <p>
     <a href="https://app.osvauld.com/#gh-light-mode-only" target="_blank">
       <img
-        src="https://Osvauld-marketing.s3.ap-south-1.amazonaws.com/osvauld-readme/plane_screen.webp"
+        src="https://raw.githubusercontent.com/tonyantony300/crispy-guacamole/master/assets/Credential_Single_Card.png"
         alt="Osvauld Screens"
         width="100%"
       />
     </a>
-    <a href="https://app.osvauld.com/#gh-dark-mode-only" target="_blank">
-      <img
-        src="https://Osvauld-marketing.s3.ap-south-1.amazonaws.com/osvauld-readme/plane_screens_dark_mode.webp"
-        alt="Osvauld Screens"
-        width="100%"
-      />
-    </a>
+
 </p>
 
 Meet [Osvauld](https://osvauld.com). An open-source software development tool to manage issues, sprints, and product roadmaps with peace of mind 🧘‍♀️.
@@ -73,18 +66,25 @@ For self hosting environment setup, visit the [Self Hosting](https://docs.Osvaul
 ## 📸 Screenshots
 
 <p>
+    <a href="https://app.osvauld.com/#gh-dark-mode-only" target="_blank">
+      <img
+        src="https://raw.githubusercontent.com/tonyantony300/crispy-guacamole/master/assets/Add_Login_Credential.png"
+        alt="Osvauld Screens"
+        width="100%"
+      />
+    </a>
     <a href="https://osvauld.com" target="_blank">
       <img
-        src="https://Osvauld-marketing.s3.ap-south-1.amazonaws.com/osvauld-readme/plane_views_dark_mode.webp"
+        src="https://raw.githubusercontent.com/tonyantony300/crispy-guacamole/master/assets/Editing_Permissions.png"
         alt="Osvauld Views"
         width="100%"
       />
     </a>
-  </p>
+</p>
 <p>
     <a href="https://osvauld.com" target="_blank">
       <img
-        src="https://Osvauld-marketing.s3.ap-south-1.amazonaws.com/osvauld-readme/plane_issue_detail_dark_mode.webp"
+        src="https://raw.githubusercontent.com/tonyantony300/crispy-guacamole/master/assets/Add_new_user_to_group.png"
         alt="Osvauld Issue Details"
         width="100%"
       />
@@ -93,41 +93,13 @@ For self hosting environment setup, visit the [Self Hosting](https://docs.Osvaul
   <p>
     <a href="https://osvauld.com" target="_blank">
       <img
-        src="https://Osvauld-marketing.s3.ap-south-1.amazonaws.com/Osvauld-readme/plane_cycles_modules_dark_mode.webp"
+        src="https://raw.githubusercontent.com/tonyantony300/crispy-guacamole/master/assets/Group_Access_selected.png"
         alt="Osvauld Cycles and Modules"
         width="100%"
       />
     </a>
   </p>
-  <p>
-    <a href="https://osvauld.com" target="_blank">
-      <img
-        src="https://Osvauld-marketing.s3.ap-south-1.amazonaws.com/Osvauld-readme/plane_analytics_dark_mode.webp"
-        alt="Osvauld Analytics"
-        width="100%"
-      />
-    </a>
-  </p>
-   <p>
-    <a href="https://osvauld.com" target="_blank">
-      <img
-        src="https://Osvauld-marketing.s3.ap-south-1.amazonaws.com/Osvauld-readme/plane_pages_dark_mode.webp"
-        alt="Osvauld Pages"
-        width="100%"
-      />
-    </a>
-  </p>
-</p>
-   <p>
-    <a href="https://osvauld.com" target="_blank">
-      <img
-        src="https://Osvauld-marketing.s3.ap-south-1.amazonaws.com/Osvauld-readme/plane_commad_k_dark_mode.webp"
-        alt="Osvauld Command Menu"
-        width="100%"
-      />
-    </a>
-  </p>
-</p>
+ 
 
 ## 📚Documentation
 
