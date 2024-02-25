@@ -16,7 +16,32 @@
         width="100%"
       />
     </a>
+    <p>
+    <a href="https://osvauld.com" target="_blank">
+      <img
+        src="https://raw.githubusercontent.com/tonyantony300/crispy-guacamole/master/assets/Add_new_user_to_group.png"
+        alt="Osvauld Issue Details"
+        width="100%"
+      />
+    </a>
+</p>
+</p>
 
+<p>
+    <a href="https://app.plane.so/#gh-light-mode-only" target="_blank">
+      <img
+        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/plane-readme/plane_screen.webp"
+        alt="Plane Screens"
+        width="100%"
+      />
+    </a>
+    <a href="https://app.plane.so/#gh-dark-mode-only" target="_blank">
+      <img
+        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/plane-readme/plane_screens_dark_mode.webp"
+        alt="Plane Screens"
+        width="100%"
+      />
+    </a>
 </p>
 
 Meet [Osvauld](https://osvauld.com). An open-source credential management tool intended to solve password-mess teams face. Osvauld helps to enforce password/token hygiene and visibilty across your team thus resulting in better overall security.
