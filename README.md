@@ -19,7 +19,7 @@
 
 </p>
 
-Meet [Osvauld](https://osvauld.com). An open-source software development tool to manage issues, sprints, and product roadmaps with peace of mind 🧘‍♀️.
+Meet [Osvauld](https://osvauld.com). An open-source credential management tool intended to solve password-mess teams face. Osvauld helps to enforce password/token hygiene and visibilty across your team thus resulting in better overall security.
 
 > Osvauld is still in its early days, not everything will be perfect yet, and hiccups may happen. Please let us know of any suggestions, ideas, or bugs that you encounter on our [Discord](https://discord.gg/XU22FscZ) or GitHub issues, and we will use your feedback to improve on our upcoming releases.
 
@@ -53,15 +53,14 @@ For self hosting environment setup, visit the [Self Hosting](https://docs.Osvaul
 
 ## 🚀 Features
 
-- **Issue Planning and Tracking**: Quickly create issues and add details using a powerful rich text editor that supports file uploads. Add sub-properties and references to issues for better organization and tracking.
-- **Issue Attachments**: Collaborate effectively by attaching files to issues, making it easy for your team to find and share important project-related documents.
-- **Layouts**: Customize your project view with your preferred layout - choose from List, Kanban, or Calendar to visualize your project in a way that makes sense to you.
-- **Cycles**: Plan sprints with Cycles to keep your team on track and productive. Gain insights into your project's progress with burn-down charts and other useful features.
-- **Modules**: Break down your large projects into smaller, more manageable modules. Assign modules between teams to easily track and plan your project's progress.
-- **Views**: Create custom filters to display only the issues that matter to you. Save and share your filters in just a few clicks.
-- **Pages**: Osvauld pages function as an AI-powered notepad, allowing you to easily document issues, cycle plans, and module details, and then synchronize them with your issues.
-- **Command K**: Enjoy a better user experience with the new Command + K menu. Easily manage and navigate through your projects from one convenient location.
-- **GitHub Sync**: Streamline your planning process by syncing your GitHub issues with Osvauld. Keep all your issues in one place for better tracking and collaboration.
+- **Open-PGP sharing**: Quickly share credentials with your team with open-PGP sharing mechanism, It is a 40-year old battle tested cryptography protocol suit.
+- **Share credential to groups of members**: Collaborate effectively by creating groups, share credentials exclusively with HR group or marketing group.
+- **Arrange credentials as folders**: Folders are a great way to arrange tokens/keys which can be shared to groups or individuals in your team.
+- **Intutive sharing mechanism**: Allocate access to credentials in simple steps, Read/Write/Owner access formats provide a shallow learning curve.
+- **Credential assist**: Access corresponding credentials allocated and tied to URLs you visit with the popup easily.
+- **Audit logs**: Admin can view which credentials are being accessed at what frequency.
+- **Easy Password rotation**: Credentials can be tied to an expiray date as per company policies admin has the transparency to view and change production keys when required.
+
 
 ## 📸 Screenshots
 
@@ -89,8 +88,8 @@ For self hosting environment setup, visit the [Self Hosting](https://docs.Osvaul
         width="100%"
       />
     </a>
-  </p>
-  <p>
+</p>
+<p>
     <a href="https://osvauld.com" target="_blank">
       <img
         src="https://raw.githubusercontent.com/tonyantony300/crispy-guacamole/master/assets/Group_Access_selected.png"
@@ -98,7 +97,7 @@ For self hosting environment setup, visit the [Self Hosting](https://docs.Osvaul
         width="100%"
       />
     </a>
-  </p>
+</p>
  
 
 ## 📚Documentation
